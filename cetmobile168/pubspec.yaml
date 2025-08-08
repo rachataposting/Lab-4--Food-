@@ -1,0 +1,31 @@
+# แก้ไข name เป็นชื่อโปรเจคของคุณ
+name: cetmobile168 
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+# ตรวจสอบเวอร์ชัน sdk ของคุณ ถ้าต่างไปมากอาจต้องปรับ
+# แต่เวอร์ชันนี้ค่อนข้างปลอดภัย
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # dependencies ที่เราต้องใช้
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# ส่วนที่สำคัญที่สุด
+flutter:
+  uses-material-design: true
+
+  # ประกาศ Assets เพื่อให้ Flutter รู้จักโฟลเดอร์รูปภาพ
+  assets:
+    - assets/images/
